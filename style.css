@@ -1,0 +1,79 @@
+body{
+    background-color: #121a35;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    background-color: #b0b9fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #41424c;
+}
+label{
+    font-size: 24px;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #121a35;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    background-color: #e1dfff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: #41424c;
+}
+button:hover{
+    transform: scale(1.03);
+}
+.divisao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.tarefa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #b0b9fa;
+    padding: 15px;
+    border-radius: 10px;
+    color: #121a35;
+    font-size: 24px;
+}
+.concluido{
+    background-color: #66e590;
+}
